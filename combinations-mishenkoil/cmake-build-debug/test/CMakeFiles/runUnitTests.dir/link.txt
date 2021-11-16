@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/runUnitTests.dir/src/test.cpp.o  -o runUnitTests ../lib/libgtestd.a ../lib/libgtest_maind.a ../xml/libpugixml.a ../libcombinations_lib.a ../lib/libgtestd.a -lpthread ../xml/libpugixml.a 

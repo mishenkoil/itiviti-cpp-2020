@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/genome.h
+string
+-
+vector
+-
+
+../include/graph.h
+list
+-
+string_view
+-
+vector
+-
+unordered_map
+-
+
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/genome.cpp
+iostream
+-
+algorithm
+-
+genome.h
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/genome.h
+graph.h
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/graph.h
+
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/graph.cpp
+iostream
+-
+graph.h
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/graph.h
+

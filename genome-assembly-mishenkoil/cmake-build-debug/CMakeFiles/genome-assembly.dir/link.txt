@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -g   CMakeFiles/genome-assembly.dir/src/main.cpp.o  -o genome-assembly libgenome_assembly_lib.a 

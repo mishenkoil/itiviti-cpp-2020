@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mishenkoil/Desktop/cpp-hw/monte-carlo-genetic-drift-mishenkoil/include/utils.h
+random
+-
+utility
+-
+functional
+-
+
+/home/mishenkoil/Desktop/cpp-hw/monte-carlo-genetic-drift-mishenkoil/src/utils.cpp
+../include/utils.h
+/home/mishenkoil/Desktop/cpp-hw/monte-carlo-genetic-drift-mishenkoil/include/utils.h
+iostream
+-
+cmath
+-
+

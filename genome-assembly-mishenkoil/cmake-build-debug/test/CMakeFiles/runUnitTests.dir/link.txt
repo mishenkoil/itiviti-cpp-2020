@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -g   CMakeFiles/runUnitTests.dir/src/genome_tests.cpp.o  -o runUnitTests ../lib/libgtestd.a ../lib/libgtest_maind.a ../libgenome_assembly_lib.a ../lib/libgtestd.a -lpthread 

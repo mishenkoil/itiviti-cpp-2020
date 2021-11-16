@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsecond_chance_multi_type_lib.a  CMakeFiles/second_chance_multi_type_lib.dir/src/pool.cpp.o
+/usr/bin/ranlib libsecond_chance_multi_type_lib.a

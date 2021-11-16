@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/genome.h
+string
+-
+vector
+-
+
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/main.cpp
+genome.h
+/home/mishenkoil/Desktop/cpp-hw/genome-assembly-mishenkoil/src/genome.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+

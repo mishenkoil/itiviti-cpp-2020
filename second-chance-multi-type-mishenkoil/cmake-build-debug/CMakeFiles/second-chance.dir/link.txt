@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/second-chance.dir/src/main.cpp.o  -o second-chance libsecond_chance_multi_type_lib.a 

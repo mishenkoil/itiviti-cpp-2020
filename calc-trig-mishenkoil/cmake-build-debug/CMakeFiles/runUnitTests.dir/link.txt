@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O3 -Wall -Werror -g  -rdynamic CMakeFiles/runUnitTests.dir/test/test.cpp.o  -o runUnitTests lib/libgtestd.a lib/libgtest_maind.a libcalc_lib.a lib/libgtestd.a -lpthread 

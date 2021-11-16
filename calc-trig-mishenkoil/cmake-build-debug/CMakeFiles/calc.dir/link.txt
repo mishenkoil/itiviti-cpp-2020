@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O3 -Wall -Werror -g  -rdynamic CMakeFiles/calc.dir/src/main.cpp.o  -o calc libcalc_lib.a 

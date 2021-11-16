@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/runUnitTests.dir/src/test_alloc.cpp.o CMakeFiles/runUnitTests.dir/src/test_cache.cpp.o  -o runUnitTests ../lib/libgtestd.a ../lib/libgtest_maind.a ../libsecond_chance_multi_type_lib.a ../lib/libgtestd.a -lpthread 

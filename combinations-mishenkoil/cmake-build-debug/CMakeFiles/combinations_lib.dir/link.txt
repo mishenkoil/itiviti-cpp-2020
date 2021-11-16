@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcombinations_lib.a  CMakeFiles/combinations_lib.dir/src/Combinations.cpp.o CMakeFiles/combinations_lib.dir/src/Component.cpp.o
+/usr/bin/ranlib libcombinations_lib.a

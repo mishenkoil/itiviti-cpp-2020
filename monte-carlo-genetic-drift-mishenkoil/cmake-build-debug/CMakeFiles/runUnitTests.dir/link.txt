@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -g  -rdynamic CMakeFiles/runUnitTests.dir/test/test.cpp.o  -o runUnitTests lib/libgtestd.a lib/libgtest_maind.a libmonte_carlo_genetic_drift_lib.a lib/libgtestd.a -lpthread 

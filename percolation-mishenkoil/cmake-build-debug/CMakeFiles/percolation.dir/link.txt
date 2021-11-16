@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -g   CMakeFiles/percolation.dir/src/main.cpp.o  -o percolation libpercolation_lib.a 

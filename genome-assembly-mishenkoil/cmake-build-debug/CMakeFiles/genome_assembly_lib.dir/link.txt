@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgenome_assembly_lib.a  CMakeFiles/genome_assembly_lib.dir/src/genome.cpp.o CMakeFiles/genome_assembly_lib.dir/src/graph.cpp.o
+/usr/bin/ranlib libgenome_assembly_lib.a

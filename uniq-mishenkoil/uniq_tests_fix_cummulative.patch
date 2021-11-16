@@ -1,0 +1,76 @@
+diff --git a/test/etc/a.txt.eta._d b/test/etc/a.txt.eta._d
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test/etc/b.txt.eta._d b/test/etc/b.txt.eta._d
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test/etc/c.txt.eta._d b/test/etc/c.txt.eta._d
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test/etc/d.txt.eta._d b/test/etc/d.txt.eta._d
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test/etc/d.txt.eta.c b/test/etc/d.txt.eta.c
+new file mode 100644
+index 0000000..132e186
+--- /dev/null
++++ b/test/etc/d.txt.eta.c
+@@ -0,0 +1 @@
++      1 1
+diff --git a/test/etc/d.txt.eta.cd b/test/etc/d.txt.eta.cd
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test/etc/d.txt.eta.cdu b/test/etc/d.txt.eta.cdu
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test/etc/d.txt.eta.cu b/test/etc/d.txt.eta.cu
+new file mode 100644
+index 0000000..132e186
+--- /dev/null
++++ b/test/etc/d.txt.eta.cu
+@@ -0,0 +1 @@
++      1 1
+diff --git a/test/etc/d.txt.eta.u b/test/etc/d.txt.eta.u
+new file mode 100644
+index 0000000..d00491f
+--- /dev/null
++++ b/test/etc/d.txt.eta.u
+@@ -0,0 +1 @@
++1
+diff --git a/test/etc/e.txt.eta._d b/test/etc/e.txt.eta._d
+new file mode 100644
+index 0000000..038b015
+--- /dev/null
++++ b/test/etc/e.txt.eta._d
+@@ -0,0 +1,2 @@
++Aaa
++123
+diff --git a/test/etc/f.txt.eta._d b/test/etc/f.txt.eta._d
+new file mode 100644
+index 0000000..6178079
+--- /dev/null
++++ b/test/etc/f.txt.eta._d
+@@ -0,0 +1 @@
++b
+diff --git a/test/test-c.sh b/test/test-c.sh
+index ba4433e..b2dd45a 100755
+--- a/test/test-c.sh
++++ b/test/test-c.sh
+@@ -3,5 +3,5 @@
+ CMD=$1
+ shift
+ for arg do
+-    $CMD -d $arg | diff -u --from-file ${arg}.eta.c - || exit 1
++    $CMD -c $arg | diff -u --from-file ${arg}.eta.c - || exit 1
+ done
+diff --git a/test/test-d.sh b/test/test-d.sh
+index 556c1e1..ecfdc67 100755
+--- a/test/test-d.sh
++++ b/test/test-d.sh
+@@ -3,5 +3,5 @@
+ CMD=$1
+ shift
+ for arg do
+-    $CMD -u $arg | diff -u --from-file ${arg}.eta.d - || exit 1
++    $CMD -d $arg | diff -u --from-file ${arg}.eta._d - || exit 1
+ done

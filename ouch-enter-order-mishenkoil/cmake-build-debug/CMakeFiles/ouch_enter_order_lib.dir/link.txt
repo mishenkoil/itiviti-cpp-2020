@@ -1,0 +1,2 @@
+/usr/bin/ar qc libouch_enter_order_lib.a  CMakeFiles/ouch_enter_order_lib.dir/src/requests.cpp.o
+/usr/bin/ranlib libouch_enter_order_lib.a

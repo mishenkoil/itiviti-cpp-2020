@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmonte_carlo_genetic_drift_lib.a  CMakeFiles/monte_carlo_genetic_drift_lib.dir/src/utils.cpp.o
+/usr/bin/ranlib libmonte_carlo_genetic_drift_lib.a

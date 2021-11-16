@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g   CMakeFiles/combinations.dir/src/main.cpp.o  -o combinations libcombinations_lib.a xml/libpugixml.a 

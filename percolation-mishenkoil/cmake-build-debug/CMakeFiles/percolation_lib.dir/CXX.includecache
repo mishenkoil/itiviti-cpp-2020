@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Percolation.h
+stdio.h
+-
+vector
+-
+
+/home/mishenkoil/Desktop/cpp-hw/percolation-mishenkoil/src/Percolation.cpp
+cstdint
+-
+Percolation.h
+/home/mishenkoil/Desktop/cpp-hw/percolation-mishenkoil/src/Percolation.h
+

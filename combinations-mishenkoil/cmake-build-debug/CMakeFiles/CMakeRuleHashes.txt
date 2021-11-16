@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+144b690198d712e4673362b2f19f1b10 test/CMakeFiles/etc
+399bd40229bc1265b22894d487200a80 test/etc/combinations.xml
